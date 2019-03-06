@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "id": "8be7ed51-bd1d-4354-b9be-2958b8aacfdf",
+        "name": "...",
+        "data": {},
+        "birthday": "1536051600"
+      },
+      {
+        "id": "ea900505-a980-4431-b861-4833c74a8cfa",
+        "name": "...",
+        "data": {},
+        "birthday": "1504515600"
+      },
+      {
+        "id": "b8dd566f-bda9-4637-8fea-6093e0a88bed",
+        "name": "...",
+        "data": {},
+        "birthday": "1472983200"
+      }
+    ]
+}
