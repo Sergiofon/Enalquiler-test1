@@ -10,7 +10,7 @@ export class CardComponent implements OnInit {
 
   @Input() name: string;
   @Input() id: string;
-  @Input() date: Timestamp<any>;
+  @Input() birthday: Timestamp<any>;
   
   constructor() { }
 
