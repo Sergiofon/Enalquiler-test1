@@ -1,6 +1,7 @@
-<div class="maincontainer" *ngFor="let item of Users">
-  <app-card [id]="item.id"
-            [name]="item.name"
-            [birthday]="item.birthday">
+<div class="maincontainer">
+  <app-card *ngFor="let item of users.users" 
+    [id]="item.id"
+    [name]="item.name"
+    [birthday]="item.birthday">
   </app-card>
 </div>

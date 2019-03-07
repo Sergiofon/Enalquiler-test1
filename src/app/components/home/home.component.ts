@@ -9,15 +9,15 @@ import { UsersService } from '../../services/services';
 })
 export class HomeComponent implements OnInit {
 
-  public users: object;
+  public users: any = {};
 
   constructor(private _service: UsersService) { }
 
   ngOnInit() {
-    this._service.getUsers()
-      .subscribe(res => console.log(res));
-
-      console.log('dataaaaaa', this.users);
+    this._service.getUsers().subscribe(
+      res => this.users = res,
+      err => console.error(err)
+    );
   }
 
 }
