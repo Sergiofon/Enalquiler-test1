@@ -1,7 +1,15 @@
 <div class="maincontainer">
-  <app-card *ngFor="let item of users.users" 
+  <app-card *ngFor="let item of finalUsers" 
     [id]="item.id"
     [name]="item.name"
-    [birthday]="item.birthday">
+    [birthday]="item.date"
+    [avatar]="item.data.avatar">
   </app-card>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" *ngIf="showAlert">
+  <strong>RECORDATORIO:</strong> 
+  <app-alert *ngFor="let item of alertInfo"
+    [name]="item.name"
+    [message]="item.message"></app-alert>
 </div>

@@ -1,8 +1,8 @@
 <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="" alt="Avatar">
+  <img class="card-img-top" src={{avatar}} alt="Avatar">
   <div class="card-body">
     <h5 class="card-title">{{name}}</h5>
     <p class="card-text">ID: {{id}}</p>
-    <p class="card-text">BIRTHDAY: {{birthday}}</p>
+    <p class="card-text">BIRTHDAY: {{birthday | date: 'dd/MM/yyyy'}}</p>
   </div>
 </div>

@@ -3,4 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+    margin-left: 12%;
+    width: 75%;
 }

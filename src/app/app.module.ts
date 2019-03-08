@@ -7,12 +7,14 @@ import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 
 import { UsersService } from './services/services';
+import { AlertComponent } from './components/alert/alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
